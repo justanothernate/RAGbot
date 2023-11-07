@@ -23,8 +23,8 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/SlackRAG.git
-cd SlackRAG
+git clone https://github.com/yourusername/RAGbot.git
+cd RAGbot
 ```
 
 Set up a virtual environment and install the dependencies:
@@ -51,7 +51,7 @@ export OPENAI_API_KEY='your_api_key_here'
 
 3. Start the server:
 
-```python slackrag.py
+```python RAGbot.py
 ```
 
 4. Test the API with a `curl` command:
