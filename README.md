@@ -1,6 +1,6 @@
-# SlackRAG
+# RAGbot
 
-SlackRAG is a simple Slackbot designed to provide automated responses to frequently asked questions within a Slack workspace. It uses text extracted from a `.docx` document as a knowledge base to generate relevant answers using OpenAI's language models. 
+RAGbot is a simple Python app designed to provide automated responses to frequently asked questions and is easy to setup as an endpoint for a Slackbot or any other system that supports a simple POST out to an endpoint. It uses [Retreival Augmented Generation (RAG)](https://www.datastax.com/guides/what-is-retrieval-augmented-generation) via text extracted from a `.docx` document as a knowledge base to generate relevant answers using OpenAI's language models. 
 
 ## Features
 
